@@ -6,5 +6,6 @@ module.exports={
 	output:{
 		path:__dirname+"/dist",
 		filename:"[name].js"
-	}
+	},
+	watch:true
 }

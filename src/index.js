@@ -1,8 +1,6 @@
-/*const change=require('./sub.js')*/
-import change from "./sub.js"
-const dom=document.querySelector(".test");
-if(!dom){
-	alert(".test is not exist")
-}else{
-	change(dom)
-}
+const sub=require('./sub.js');
+
+/*import {myvar} from "./sub.js"
+import {change} from "./sub"*/
+document.body.innerText=sub.myvar"
+sub.change();
