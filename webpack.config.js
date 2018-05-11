@@ -1,0 +1,10 @@
+module.exports={
+	//入口
+	entry:{
+		index:__dirname+"/src/index.js"
+	},
+	output:{
+		path:__dirname+"/dist",
+		filename:"[name].js"
+	}
+}
