@@ -525,10 +525,19 @@
     "y18n": "^4.0.0",
     "yallist": "^2.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack-dev-server": "^3.1.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"webpack"
+    "build": "webpack",
+    "dev":"webpack-dev-server"
   },
   "keywords": [],
   "author": "",

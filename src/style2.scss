@@ -1,0 +1,10 @@
+.main{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    .sub{
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+    }
+}
